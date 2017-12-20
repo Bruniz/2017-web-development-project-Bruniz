@@ -1,0 +1,126 @@
+body {
+    background-color: #cacaca;
+    font-family: Avenir;
+}
+
+/* Base container of the whole app */
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    padding: 3rem;
+}
+
+input.full-width {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex: 1 1 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.portfolios {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.portfolio {
+    background-color: #7f7f7f;
+    border-radius: 5px;
+    color: #2e2e2e;
+    display: flex;
+    flex: 0 0.5 48%;
+    flex-direction: column;
+    align-self: flex-start;
+    margin: 5px;
+    padding: 10px;
+}
+
+.portfolio-header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.portfolio-header > div > .name {
+    font-size: 3ch;
+    margin-right: 10px;
+}
+
+.portfolio-body {
+    padding: 5px;
+    min-height: 30px;
+}
+
+.portfolio-footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.footer-btn-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.footer-total-value-row {
+    padding-bottom: 10px;
+}
+.footer-btn-row > span > button:first-child,
+.portfolio-header > span > button:first-child {
+    margin-right: 10px;
+}
+
+.delete-portfolio-btn {
+    margin-left: 10px;
+}
+
+.table-container {
+    max-height: 35vh;
+    overflow-y: auto;
+}
+
+.stock-table td, .stock-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.stock-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.stock-table tr:hover {
+    background-color: #ddd;
+}
+
+.stock-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.space-between-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
