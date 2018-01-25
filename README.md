@@ -2,4 +2,4 @@
 
 Link to demo:
 
-https://it-teaching-abo-akademi.github.io/2017-web-development-project-Bruniz/
+https://bruniz.github.io/2017-web-development-project-Bruniz/
